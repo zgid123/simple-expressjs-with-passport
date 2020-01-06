@@ -1,0 +1,49 @@
+{
+  "name": "simple-expressjs",
+  "version": "1.0.0",
+  "description": "Simple expressjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-hbs": "^2.3.0",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "module-alias": "^2.2.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.17.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  },
+  "_moduleAliases": {
+    "@db": "./src/db",
+    "@utils": "./src/utils",
+    "@config": "./src/config",
+    "@modules": "./src/modules",
+    "@services": "./src/services",
+    "@constants": "./src/constants",
+    "@middlewares": "./src/middlewares"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  }
+}
